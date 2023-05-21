@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/hellboy/GCSC/1.AirHockey_Server_Integration/1.Airhockey_Server_codebase/devel/lib/python2.7/dist-packages",
+        "/home/hellboy/GCSC/MINIONS_SOCCER/robosoccer_ros/devel/lib/python2.7/dist-packages",
+        "/opt/ros/kinetic/lib/python2.7/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/hellboy/GCSC/1.AirHockey_Server_Integration/1.Airhockey_Server_codebase/devel/lib/python2.7/dist-packages",
+        "/home/hellboy/GCSC/MINIONS_SOCCER/robosoccer_ros/devel/lib/python2.7/dist-packages",
+        "/opt/ros/kinetic/lib/python2.7/dist-packages"
+    ]
+}

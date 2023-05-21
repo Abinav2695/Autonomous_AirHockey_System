@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/hellboy/GCSC/MINIONS_SOCCER/robosoccer_ros/devel/include/**",
+        "/opt/ros/kinetic/include/**",
+        "/home/hellboy/GCSC/1.AirHockey_Server_Integration/1.Airhockey_Server_codebase/src/ah_ros_epson/include/**",
+        "/home/hellboy/GCSC/MINIONS_SOCCER/robosoccer_ros/src/grsim_comm/include/**",
+        "/home/hellboy/GCSC/MINIONS_SOCCER/robosoccer_ros/src/roles/include/**",
+        "/home/hellboy/GCSC/MINIONS_SOCCER/robosoccer_ros/src/service_hub/include/**",
+        "/home/hellboy/GCSC/MINIONS_SOCCER/robosoccer_ros/src/tactic_classes/include/**",
+        "/home/hellboy/GCSC/1.AirHockey_Server_Integration/1.Airhockey_Server_codebase/src/utils/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,10 @@
+<launch>
+    <arg name="videoSource" default="-v 0"/>
+    <!--arg name="args2" value ="1" type="int" /-->
+    <node name= "puck_center_publisher_node" pkg = "ah_ros_epson" type = "puck_detection.py" args="$(arg videoSource)" output="screen" />
+        <!--param name="videoSource" value="2" type="int"/>
+        <param name="fileName" value="0" type="str"/-->
+    <node name= "velocity_node" pkg = "ah_ros_epson" type = "velocity.py" output="screen" />
+    <node name= "socket_node" pkg = "ah_ros_epson" type = "serial_socket_client.py" output="screen" />
+
+</launch>
